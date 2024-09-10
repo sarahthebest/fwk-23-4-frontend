@@ -26,7 +26,19 @@ Ensure you have the following installed on your machine:
    npm install
    ```
 
-3. Run the development server:
+3. Npm link in component repo:
+
+   ```bash
+   npm link
+   ```
+
+2. npm link packagename in frontend repo:
+
+   ```bash
+   npm link fwk-23-4-components
+   ```
+   
+5. Run the development server:
 
    ```bash
    npm run dev
