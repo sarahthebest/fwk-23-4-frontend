@@ -17,8 +17,8 @@ Ensure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo 
+   git clone https://github.com/sarahthebest/fwk-23-4-frontend.git
+   cd fwk-23-4-frontend
 
 2. Install dependencies:
 
