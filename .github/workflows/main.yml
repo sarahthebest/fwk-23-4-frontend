@@ -12,4 +12,7 @@ jobs:
       uses: sebastianpopp/discord-action@releases/v2
       with:
         webhook: ${{ secrets.DISCORD_WEBHOOK }}
-        message: ${{ github.repository }} has been successfully deployed.
+        message: |
+          ${{ github.repository }} has been successfully deployed.
+          Pushed by: ${{ github.actor }}
+          Commit message: ${{ github.event.head_commit.message }}
