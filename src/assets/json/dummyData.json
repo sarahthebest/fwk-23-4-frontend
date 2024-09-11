@@ -1,15 +1,30 @@
 {
-    "timestamp": "2023-10-26T12:34:56.789Z", 
-    "userPrompt": "What is the meaning of life?", 
-    "geminiResponse": {
-      "content": "The meaning of life is a profound question...", 
-      "model": "Gemini Pro", 
-      "tokenCount": 123, 
-      "temperature": 0.5, 
-      "top_p": 1.0, 
-      "otherParameters": {
-        "max_tokens": 50, 
-        "stop_sequences": ["\n", "."]  
-      }
-    }
-  }
+    "responses": [
+        {
+            "timestamp": "2023-10-26T12:34:56.789Z",
+            "userPrompt": "What is the meaning of life?",
+            "geminiResponse": {
+                "content": "The meaning of life is a profound question...",
+                "model": "Gemini Pro",
+                "tokenCount": 123,
+                "temperature": 0.5,
+                "top_p": 1.0,
+                "otherParameters": {
+                    "max_tokens": 50,
+                    "stop_sequences": [
+                        "\n",
+                        "."
+                    ]
+                }
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "taskName": "Grocery Shopping",
+            "description": "Buy milk, eggs, bread, and cheese.",
+            "userId": "012",
+            "status": "doing"
+        }
+    ]
+}
