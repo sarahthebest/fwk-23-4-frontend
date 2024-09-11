@@ -24,7 +24,9 @@
             "taskName": "Grocery Shopping",
             "description": "Buy milk, eggs, bread, and cheese.",
             "userId": "012",
-            "status": "doing"
+            "status": "doing",
+            "category": "food, cleaning, organizing, etc",
+            "taskId":"1221"
         }
     ]
 }
