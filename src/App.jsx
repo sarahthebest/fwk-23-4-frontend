@@ -1,5 +1,4 @@
-import { Header, Sidebar } from 'fwk-23-4-components';
-import { Chat } from 'fwk-23-4-components';
+import { Header, Sidebar, Chat } from 'fwk-23-4-components';
 
 import './App.css'
 
