@@ -11,6 +11,7 @@ This is the AI-assistant app built with React.
 Ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (version 14.x or above)
 - [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/) (optional)
+- install our component library package from [npm](https://www.npmjs.com/package/@daniellaalolo/fwk-23-4-components)
 
 ## Installation
 
