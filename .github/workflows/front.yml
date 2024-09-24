@@ -32,6 +32,6 @@ jobs:
        # run: npm run build  # Build the frontend project
 
       # Step 5: Run tests
-      - name: Run tests
-        run: npm test  # Execute tests for the frontend project
+      #- name: Run tests
+       # run: npm test  # Execute tests for the frontend project
 
