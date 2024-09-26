@@ -11,9 +11,10 @@
   },
   "dependencies": {
     "@aariam/mycomponent1": "^1.0.2",
-    "@sarahthebest/fwk-23-4-components": "^2.5.13",
+    "@sarahthebest/fwk-23-4-components": "^2.5.14",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
