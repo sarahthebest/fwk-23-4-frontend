@@ -1,16 +1,17 @@
-import { Header, Sidebar, Chat } from 'fwk-23-4-components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import { LoginForm, RegisterForm } from '@sarahthebest/fwk-23-4-components';
 
-import './App.css'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-    <Sidebar />
-      <Header />
-      <Chat />
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="login" element={<LoginForm />} />
+        <Route path="register" element={<RegisterForm />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

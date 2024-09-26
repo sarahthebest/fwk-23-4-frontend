@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@aariam/mycomponent1": "^1.0.2",
+    "@sarahthebest/fwk-23-4-components": "^2.5.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
