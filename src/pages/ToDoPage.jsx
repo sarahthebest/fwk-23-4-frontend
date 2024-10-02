@@ -1,4 +1,4 @@
-import { Sidebar, TodoBoard } from "@sarahthebest/fwk-23-4-components";
+import { Sidebar, TodoBoard } from "@daniellaalolo/fwk-23-4-components";
 
 const ToDoPage = () => {
     return (
