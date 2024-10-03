@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import { LoginForm, RegisterForm } from '@sarahthebest/fwk-23-4-components';
+import { LoginForm, RegisterForm } from '@daniellaalolo/fwk-23-4-components';
 import ToDoPage from './pages/ToDoPage';
 
 const App = () => {
