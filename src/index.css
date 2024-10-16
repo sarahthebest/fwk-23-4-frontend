@@ -14,13 +14,6 @@
     font-family: "Geist Light";
     src: url(./assets/GeistMono-Light-BF65694d059193c.otf) format(opentype);
 }
-:root{
-    --light:#FFFCF2;
-    --dark:#252422;
-    --bg:#403D39;
-    --accent:#FF922E;
-    color: var(--light);
-}
 :root,
 #root,
 body,
@@ -29,7 +22,7 @@ html {
     padding: 0 !important;
     height: 100%;
     width: 100%;
-    background-color: var(--light);
+    background-color: var(--bg);
     font-family: "Poppins";
     overflow: hidden;
 }

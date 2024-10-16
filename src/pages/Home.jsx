@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Chat, Header, Message, Sidebar } from "@daniellaalolo/fwk-23-4-components";
+import { Chat, Message, Sidebar } from "@daniellaalolo/fwk-23-4-components";
 
 const Home = () => {
     const [messages, setMessages] = useState([]);
