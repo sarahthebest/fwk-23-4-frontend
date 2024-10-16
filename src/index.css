@@ -30,7 +30,8 @@ html {
     height: 100%;
     width: 100%;
     background-color: var(--light);
-    font-family: "Geist Regular";
+    font-family: "Poppins";
+    overflow: hidden;
 }
 .flex-row {
     display: flex;

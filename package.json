@@ -10,10 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aariam/mycomponent1": "^1.0.2",
-    "@daniellaalolo/fwk-23-4-components": "^2.11.9",
-    "@sarahthebest/fwk-23-4-components": "^2.6.0",
-    "axios": "^1.7.7",
+    "@daniellaalolo/fwk-23-4-components": "^2.11.16",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
