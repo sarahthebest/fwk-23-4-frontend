@@ -10,9 +10,9 @@ const SettingsPage = () => {
             <Sidebar />
             <div className="settings flex-col">
                 <DataRequest />
-                <ThemePicker
+                {/* <ThemePicker
                     onThemeChange={(themeName) => console.log(themeName)}
-                />
+                /> */}
             </div>
         </div>
     );
