@@ -2,18 +2,32 @@
     font-family: "Poppins";
     src: url(./assets/Poppins-Medium.ttf) format(truetype);
 }
+
 @font-face {
     font-family: "Geist Regular";
     src: url(./assets/GeistMono-Regular-BF65694d05471c0.otf) format(opentype);
 }
+
 @font-face {
     font-family: "Geist Medium";
     src: url(./assets/GeistMono-Medium-BF65694d060c7bc.otf) format(opentype);
 }
+
 @font-face {
     font-family: "Geist Light";
     src: url(./assets/GeistMono-Light-BF65694d059193c.otf) format(opentype);
 }
+
+:root {
+    --primary: #904fff;
+    --secondary: #fce4ff;
+    --bg: #403D39;
+    --accent: #FF922E;
+    --border: rgba(73, 73, 73, 0.495);
+    --text: #121212;
+    --gradient: linear-gradient(to top right, #904fff, #fce4ff, #FF922E);
+}
+
 :root,
 #root,
 body,
@@ -25,16 +39,19 @@ html {
     background-color: var(--bg);
     font-family: "Poppins";
     overflow: hidden;
-    color:var(--text);
+    color: var(--text);
 }
+
 .flex-row {
     display: flex;
     flex-direction: row;
 }
+
 .flex-col {
     display: flex;
     flex-direction: column;
 }
+
 .home,
 .toDoPage,
 .settings,
@@ -44,6 +61,7 @@ html {
     align-items: center;
     justify-content: center;
 }
+
 .chatWrapper {
     height: 100%;
     align-self: center;
@@ -52,8 +70,10 @@ html {
     align-items: center;
     gap: 20px;
     padding: 20px;
-    margin-left: auto;margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.landing{
-    justify-content: space-between ;
+
+.landing {
+    justify-content: space-between;
 }
